@@ -17,7 +17,7 @@ spec:
                       name: beci
                       port:
                         number: 8080   
-              - path: / 
+              - path: /frontend
                 pathType: Prefix #/tomcat will be the path to access the tomcat application
                 backend:
                     service:
